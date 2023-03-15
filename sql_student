@@ -1,0 +1,15 @@
+create table student(
+       sno number,
+       sname varchar2(50),
+       sex varchar2(10),
+       sage number,
+       sdept varchar2(50));
+
+insert into student values('2000012','王林','男','19','计算机');
+insert into student values('2000113','张大民','男','18','管理');
+insert into student values('2000256','顾芳','女','19','管理');
+insert into student values('2000278','姜凡','男','19','管理');
+insert into student values('2000014','葛波','女','18','计算机');
+insert into student values('2000011','李刚','男','22','计算机');
+
+select * from student;
